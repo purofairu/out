@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Control System</title>
+  <link rel="stylesheet" href="style.css">
+    <div class="modal-content">
+        <h2>機器エラー表示</h2>
+        <label for="roomName">ボイラー名:</label>
+        <input type="text" id="roomName" placeholder="任意の名前を入力">
+
+        <div class="error-info">
+            <p>エラー番号: <span id="errorNumber">E-02</span></p>
+            <p>エラー内容: <span id="errorDetail">対震自動停止装置作動</span></p>
+        </div>
+
+        <p>対策: 対処の周辺に異常がないかを確認し、リセット操作を行いエラーを解除してください。</p>
+
+        <div class="modal-buttons">
+            <button id="resetButton">リセット</button>
+            <button id="cancelButton">エラーを閉じる</button>
+        </div>
+    </div>
+</div>
